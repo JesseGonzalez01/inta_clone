@@ -121,7 +121,7 @@ end
 When("I click Stars in Mary's first post") do
     @post = @mary.posts.first
     # PENDING find the link to the post 
-    pending
+    pending 
 end
 
 Then('I should have starred the post') do
